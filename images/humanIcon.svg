@@ -1,0 +1,41 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="25" fill="#1E1E1E"/>
+<g id="AQUABLAST_1 coolafz &#38; sergey" clip-path="url(#clip0_0_1)">
+<rect width="1600" height="8576" transform="translate(-403 -768)" fill="white"/>
+<g id="&#208;&#158; &#208;&#189;&#208;&#176;&#209;&#129; (1 &#209;&#141;&#208;&#186;&#209;&#128;&#208;&#176;&#208;&#189;)" clip-path="url(#clip1_0_1)">
+<rect width="1600" height="900" transform="translate(-403 -768)" fill="#FFFFFE"/>
+<g id="&#208;&#161;&#209;&#130;&#208;&#176;&#209;&#130;&#208;&#184;&#209;&#129;&#209;&#130;&#208;&#184;&#208;&#186;&#208;&#176;">
+<g id="Rectangle 264" opacity="0.06" filter="url(#filter0_f_0_1)">
+<rect x="41" y="-51" width="794" height="217" rx="10" fill="#0D1025"/>
+</g>
+<rect id="Rectangle 251" x="-30" y="-81" width="855" height="186" rx="50" fill="#FFFFFE"/>
+<g id="Frame 1">
+<g id="Group 1218">
+<g id="icon client">
+<g id="Group 1216">
+<g id="heroicons:sm-user">
+<g id="Group">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M12.9 10.4166C13.8548 10.4166 14.7705 10.0373 15.4456 9.36214C16.1207 8.68701 16.5 7.77133 16.5 6.81655C16.5 5.86177 16.1207 4.9461 15.4456 4.27097C14.7705 3.59584 13.8548 3.21655 12.9 3.21655C11.9452 3.21655 11.0295 3.59584 10.3544 4.27097C9.67929 4.9461 9.3 5.86177 9.3 6.81655C9.3 7.77133 9.67929 8.68701 10.3544 9.36214C11.0295 10.0373 11.9452 10.4166 12.9 10.4166ZM7.79865 21.2166C5.97686 21.2166 4.44224 19.6851 5.13941 18.002C5.56155 16.9829 6.18029 16.0569 6.9603 15.2769C7.74032 14.4968 8.66632 13.8781 9.68546 13.456C10.7046 13.0338 11.7969 12.8166 12.9 12.8166C14.0031 12.8166 15.0954 13.0338 16.1145 13.456C17.1337 13.8781 18.0597 14.4968 18.8397 15.2769C19.6197 16.0569 20.2385 16.9829 20.6606 18.002C21.3578 19.6851 19.8231 21.2166 18.0014 21.2166H7.79865Z" fill="#EF4565"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_1" x="-73" y="-165" width="1022" height="445" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="57" result="effect1_foregroundBlur_0_1"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1600" height="8576" fill="white" transform="translate(-403 -768)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="1600" height="900" fill="white" transform="translate(-403 -768)"/>
+</clipPath>
+</defs>
+</svg>

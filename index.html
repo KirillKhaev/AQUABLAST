@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="libs/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Noto+Sans&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+		<script src="libs/wow.min.js"></script>
+		<script>
+		
+		</script>
+		<title>AQUABLAST VLADIKAVKAZ</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content-container">
+				<header id ="header">
+					<div class="logo-block wow animate__flipInX" data-wow-duration="1s">
+						<img src="images/AquablastLogo.svg">
+					</div>
+					<div class="navbar">
+						<a href="#header" class="navbar__link">О нас</a>
+						<a href="#audience-block" class="navbar__link">Кому мы поможем?</a>
+						<a href="#equipment-block" class="navbar__link">Оборудование</a>
+						<a href="#feedback-block" class="navbar__link">Отзывы</a>
+						<a href="#gallery-block" class="navbar__link">Галерея</a>
+						<a href="#FAQ-block" class="navbar__link">FAQ</a>
+					</div>
+					<div class="header-mobile-burger" onclick="showBurger()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</header>
+			</div>
+			<main>
+				<div class="content-container">
+					<div class="about-us-block">
+						<div class="about-us-text-block  wow animate__fadeInLeft" data-wow-duration="1s">
+							<h1 class="about-us__title">Мы очищаем детали аквабластингом.</h1>
+							<p class="about-us__description">Аквабластинг  — это современный метод бережной и эффективной очистки от ржавчины, окалины, нагара, краски и других трудно очищаемых загрязнений с различных поверхностей.</p>
+							<a href="#request-block" class="request__btn">Оформить заявку</a>
+							<span class="mobile-about-us-block-border"></span>
+						</div>
+						<div class="about-us-img wow animate__fadeInRight" data-wow-duration="1s">
+							<img src="images/AboutUsPic.svg">
+						</div>
+						<div class="mobile-about-us-info">
+							<h2 class="mobile-about-us-info__title">Безупречная очистка</h2>
+							<span class="mobile-about-us-info-border"></span>
+						</div>
+					</div>
+					<div class="statistics-block wow animate__slideInUp" data-wow-duration="1s">
+						<div class="statistics-block-el" id="statistics-block-el">
+							<div class="statistics-block-user__icon statistics-block__icon"></div>
+							<div class="statistics-block-text">
+								<p class="statistics-block__title">200+</p>
+								<p class="statistics-block__subtitle">Довольных клиентов</p>
+							</div>
+						</div>
+						<div class="statistics-block-el">
+							<div class="statistics-block-location__icon statistics-block__icon"></div>
+							<div class="statistics-block-text">
+								<p class="statistics-block__title">30+</p>
+								<p class="statistics-block__subtitle">Обслуженных автомастерских</p>
+								<div>
+									<p class="mobile-statistics-block__title">Богатый опыт</p>
+									<p class="mobile-statistics-block__subtitle">Более 200 довольных клиентов и более 30 обслуженных автомастерских.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="audience-block" id="audience-block">
+						<div class="audience-block-container">
+							<div class="audience-block-text wow animate__zoomIn" data-wow-duration="1s">
+								<h2 class="title">Кому мы поможем?</h2>
+								<p class="audience-block__subtitle">Гидроабразивная очистка сочетает в себе интенсивность пескоструйной обработки и бережную очистку струйной мойки. Воздействие на поверхность регулируется давлением воды и типом абразива.</p>
+							</div>
+							<div class="audience-block-items">
+								<div class="audience-block-el wow animate__bounce" data-wow-duration="1s">
+									<img src="images/car.svg" class="audience-block__pic">
+									<h3 class="audience-block-el__title">Автосервисам</h3>
+									<p class="audience-block-el__subtitle">Где ремонтируются турбины, компрессоры, двигатели, стартеры, генераторы, КПП</p>
+								</div>
+								<div class="audience-block-el wow animate__bounce" data-wow-duration="1s">
+									<img src="images/screwdriver.svg" class="audience-block__pic">
+									<h3 class="audience-block-el__title">Сервисы по ремонту электроинструмента</h3>
+									<p class="audience-block-el__subtitle">С деталей инструментов быстро удалятся грязь, старая смазка, коррозия и краска.</p>
+								</div>
+								<div class="audience-block-el wow animate__bounce" data-wow-duration="1s">
+									<img src="images/wheel.svg" class="audience-block__pic">
+									<h3 class="audience-block-el__title">Студиям по восстановлению колёсных дисков и тормозных суппортов.</h3>
+									<p class="audience-block-el__subtitle">Гидроабразивная очистка бережно удаляет размягчённую порошковую эмаль из труднодоступных мест.</p>
+								</div>
+								<div class="audience-block-el wow animate__bounce" data-wow-duration="1s">
+									<img src="images/wrench.svg" class="audience-block__pic">
+									<h3 class="audience-block-el__title">Автомобильным разборам</h3>
+									<p class="audience-block-el__subtitle">Кронштейны и элементы подвески из алюминия приобретут вид новой детали. Такой товар стоит дороже.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="equipment-block" id ="equipment-block">
+						<div class="equipment-block-text wow animate__zoomIn" data-wow-duration="1s">
+							<h2 class="title">Наше оборудование</h2>
+							<p class="equipment-block-description">Мы гордимся представить вам <mark class="model__name">iBlast AK1500 Pro</mark> - наше передовое оборудование для аквабластинга. Эта мощная система обеспечивает высокоэффективную очистку деталей и поверхностей, обладая всеми необходимыми функциями для качественной работы без повреждения поверхностей.</p>
+							<div class="mobile-equipment-block-pic-container">
+								<img src="images/equipment.svg" class="equipment-block__pic">
+							</div>
+							<ul class="equipment-description-list">
+								<li class="equipment-description-list__el">Перчатки резиновые для безопасной и удобной работы оператора.</li>
+								<li class="equipment-description-list__el">Освещение диодное верхнее и фронтальное для отличной видимости даже в условиях плохой освещенности.</li>
+								<li class="equipment-description-list__el">Гидро развязка (шланги) и пневмо развязка с регулятором давления и обратным клапаном обеспечивают безопасность и комфорт во время работы.</li>
+								<li class="equipment-description-list__el">Пистолеты: пескоструйный со сменным соплом из карбида бора, промывочный и воздушный. Все необходимые инструменты для различных типов очистки.</li>
+							</ul>
+						</div>
+						<div class="equipment-block-pic-container  wow animate__fadeInRight" data-wow-duration="1s">
+							<img src="images/equipment.svg" class="equipment-block__pic">
+						</div>
+					</div>
+				</div>
+				<div class="feedback-block wow animate__zoomIn" id="feedback-block" data-wow-duration="1s">
+					<div class="feedback-block-container">
+						<div class="feedback-block-text">
+							<h2 class="feedback-block__title">Нам доверяют десятки довольных клиентов.</h2>
+							<p class="feedback-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="swiper">
+							<div class="feedback-block-items swiper-wrapper">
+								<div class="feedback-block-el swiper-slide">
+									<div class="client-info">
+										<div class="client-profile">
+											<img src="images/clientAvatar.svg" class="client__avatar">
+											<div class="client-personal-data">
+												<p class="client__name">Сергей Дзукаев</p>
+												<p class="client__city">Владикавказ</p>
+											</div>
+										</div>
+										<div class="client-mark-block">
+											<p class="client__mark">5.0</p>
+											<span class="star__icon"></span>
+										</div>
+									</div>
+									<p class="client-comment">“Вау... Я не надеялся на такой результат, но старая ржавая деталь обрела новую жизнь. Парням спасибо”.</p>
+								</div>
+								<div class="feedback-block-el swiper-slide">
+									<div class="client-info">
+										<div class="client-profile">
+											<img src="images/clientAvatar.svg" class="client__avatar">
+											<div class="client-personal-data">
+												<p class="client__name">Казбек Келехсаев</p>
+												<p class="client__city">Владикавказ</p>
+											</div>
+										</div>
+										<div class="client-mark-block">
+											<p class="client__mark">5.0</p>
+											<span class="star__icon"></span>
+										</div>
+									</div>
+									<p class="client-comment">“Работой доволен, деталь почистили она стала выглядить лучше чем новая. Спасибо”.</p>
+								</div>
+								<div class="feedback-block-el swiper-slide">
+									<div class="client-info">
+										<div class="client-profile">
+											<img src="images/clientAvatar.svg" class="client__avatar">
+											<div class="client-personal-data">
+												<p class="client__name">Астемир Пухаев</p>
+												<p class="client__city">Беслан</p>
+											</div>
+										</div>
+										<div class="client-mark-block">
+											<p class="client__mark">4.5</p>
+											<span class="star__icon"></span>
+										</div>
+									</div>
+									<p class="client-comment">“Спасибо! Хорошие ребята все качественно сделали!”.</p>
+								</div>
+								<div class="feedback-block-el swiper-slide">
+									<div class="client-info">
+										<div class="client-profile">
+											<img src="images/clientAvatar.svg" class="client__avatar">
+											<div class="client-personal-data">
+												<p class="client__name">Сергей Дзукаев</p>
+												<p class="client__city">Владикавказ</p>
+											</div>
+										</div>
+										<div class="client-mark-block">
+											<p class="client__mark">5.0</p>
+											<span class="star__icon"></span>
+										</div>
+									</div>
+									<p class="client-comment">“Вау... Я не надеялся на такой результат, но старая ржавая деталь обрела новую жизнь. Парням спасибо”.</p>
+								</div>
+								<div class="feedback-block-el swiper-slide">
+									<div class="client-info">
+										<div class="client-profile">
+											<img src="images/clientAvatar.svg" class="client__avatar">
+											<div class="client-personal-data">
+												<p class="client__name">Казбек Келехсаев</p>
+												<p class="client__city">Владикавказ</p>
+											</div>
+										</div>
+										<div class="client-mark-block">
+											<p class="client__mark">5.0</p>
+											<span class="star__icon"></span>
+										</div>
+									</div>
+									<p class="client-comment">“Работой доволен, деталь почистили она стала выглядить лучше чем новая. Спасибо”.</p>
+								</div>
+								<div class="feedback-block-el swiper-slide">
+									<div class="client-info">
+										<div class="client-profile">
+											<img src="images/clientAvatar.svg" class="client__avatar">
+											<div class="client-personal-data">
+												<p class="client__name">Астемир Пухаев</p>
+												<p class="client__city">Беслан</p>
+											</div>
+										</div>
+										<div class="client-mark-block">
+											<p class="client__mark">4.5</p>
+											<span class="star__icon"></span>
+										</div>
+									</div>
+									<p class="client-comment">“Спасибо! Хорошие ребята все качественно сделали!”.</p>
+								</div>
+							</div>
+							<div class="slider-btn-container">
+								<div class="swiper-button-prev slider__btn swiper-prev__btn"></div>
+								<div class="swiper-button-next slider__btn swiper-next__btn"></div>
+							</div>
+							<div class="swiper-pagination" id="swiper-pagination"></div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="content-container">
+					<div class="gallery-block" id="gallery-block">
+						<div class="gallery-block-text">
+							<h2 class="title">Галерея</h2>
+							<p class="gallary-block-subtitle">В нашей галерее вы можете увидеть результаты нашей работы. Наша команда профессионалов с легкостью удаляет ржавчину, отложения и загрязнения, приводя детали к их первоначальному блеску и чистоте. Посмотрите сами, как наш аквабластинг делает чудеса!</p>
+						</div>
+						<div class="gallery-block-pictures pc-gallery-block-pictures">
+							<img src="images/galleryPic1.svg" class="gallery-block__pic ">
+							<img src="images/galleryPic2.svg" class="gallery-block__pic ">
+							<img src="images/galleryPic3.svg" class="gallery-block__pic ">
+							<img src="images/galleryPic4.svg" class="gallery-block__pic ">
+							<img src="images/galleryPic5.svg" class="gallery-block__pic">
+						</div>
+						<div class="gallery-swiper mobile-gallery-swiper" >
+							<div class="gallery-block-pictures swiper-wrapper">
+								<img src="images/galleryPic1.svg" class="gallery-block__pic swiper-slide">
+								<img src="images/galleryPic2.svg" class="gallery-block__pic swiper-slide">
+								<img src="images/galleryPic3.svg" class="gallery-block__pic swiper-slide">
+								<img src="images/galleryPic4.svg" class="gallery-block__pic swiper-slide">
+								<img src="images/galleryPic5.svg" class="gallery-block__pic swiper-slide">
+							</div>
+							<div id="gallery-swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+				<div class="FAQ-block" id="FAQ-block">
+					<div class="FAQ-block-container">
+						<h2 class="title wow animate__bounceIn" data-wow-duration="1s" >Часто задаваемые вопросы</h2>
+						<div class="questions-block">
+							<div class="questions-block-el">
+								<div class="questions-block-el-header">
+									<h3 class="questions-block__title">What is Webflow and why is it the best website builder?</h3>
+									<span class="FAQ-btn answer-show__btn"></span>
+									<span class="FAQ-btn answer-hide__btn hide-faq-btn"></span>
+								</div>
+								<p class="questions-block__subtitle">Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+							</div>
+							<div class="questions-block-el">
+								<div class="questions-block-el-header">
+									<h3 class="questions-block__title">What is your favorite template from BRIX Templates?</h3>
+									<span class="FAQ-btn answer-show__btn"></span>
+									<span class="FAQ-btn answer-hide__btn hide-faq-btn"></span>
+								</div>
+								<p class="questions-block__subtitle">Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+							</div>
+							<div class="questions-block-el">
+								<div class="questions-block-el-header">
+									<h3 class="questions-block__title">How do you clone a template from the Showcase?</h3>
+									<span class="FAQ-btn answer-show__btn"></span>
+									<span class="FAQ-btn answer-hide__btn hide-faq-btn"></span>
+								</div>
+								<p class="questions-block__subtitle">Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+							</div>
+							<div class="questions-block-el">
+								<div class="questions-block-el-header">
+									<h3 class="questions-block__title">Why is BRIX Templates the best Webflow agency?</h3>
+									<span class="FAQ-btn answer-show__btn"></span>
+									<span class="FAQ-btn answer-hide__btn hide-faq-btn"></span>
+								</div>
+								<p class="questions-block__subtitle">Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+							</div>
+							<div class="questions-block-el">
+								<div class="questions-block-el-header">
+									<h3 class="questions-block__title">When was Webflow officially launched?</h3>
+									<span class="FAQ-btn answer-show__btn"></span>
+									<span class="FAQ-btn answer-hide__btn hide-faq-btn"></span>
+								</div>
+								<p class="questions-block__subtitle">Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+							</div>
+							<div class="questions-block-el">
+								<div class="questions-block-el-header">
+									<h3 class="questions-block__title">How do you integrate Jetboost with Webflow?</h3>
+									<span class="FAQ-btn answer-show__btn"></span>
+									<span class="FAQ-btn answer-hide__btn hide-faq-btn"></span>
+								</div>
+								<p class="questions-block__subtitle">Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="request-block" id="request-block">
+					<div class="request-block-container">
+						<form action="#" method="POST" class="form">
+							<div class="request-block-form">
+								<h2 class="request-block__title">Оставить заявку:</h2>
+								<div class="input-block">
+									<div class="input-block-personal-info">
+										<div class="input-name-block">
+											<p class="input-block__text">Имя</p>
+											<input type="text" class="form__input name__input" name="name" data-validate-field="name" placeholder="Введите ваше имя">
+										</div>
+										<div class="input-phone-block">
+											<p class="input-block__text">Номер телефона</p>
+											<input type="tel" class="form__input phome__input" name="tel" data-validate-field="tel" placeholder="Введите ваш номер телефона">
+										</div>
+									</div>
+									<div class="input-message-block">
+										<p class="input-block__text">Ваше сообщение</p>
+										<textarea class="form__input message__input" name="message" data-validate-field="text" placeholder="Опишите ваш заказ"></textarea>
+									</div>
+								</div>
+								<input type="submit" class="request__btn wow animate__bounce" data-wow-duration="1s"  name="submit-btn" id="request__btn" value="Оформить заявку">
+							</div>
+						</form>
+						<div class="request-block-contacts">
+							<h2 class="request-block-contacts__title">Наши контакты:</h2>
+							<div class="mail-block info-block">
+								<p class="info-block__title">Наша электронная почта:</p>
+								<p class="info-block__subtitle">forgiveness@yandex.ru</p>
+							</div>
+							<div class="phone-block info-block">
+								<p class="info-block__title">Номер телефона:</p>
+								<p class="info-block__subtitle">+7 (123) 456 78-91</p>
+							</div>
+							<div class="address-block info-block">
+								<p class="info-block__title">Адрес:</p>
+								<p class="info-block__subtitle">Россия, Владикавказ Улица Бородинская, дом 38 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<div class="footer-container">
+					<div class="footer-main-block">
+						<div class="footer-logo-block wow animate__flipInX" data-wow-duration="1s">
+							<img src="images/footerLogo.svg" class="footer__logo">
+						</div>
+						<div class="footer-main-block-text">
+							<div class="footer-address-block footer-text-block">
+								<span class="footer-address__icon"></span>
+								<p class="footer__address">Улица Барбашова, дом 23</p>
+							</div>
+							<div class="footer-phone-block footer-text-block">
+								<span class="footer-phone__icon"></span>
+								<p class="footer__phone">+7 (434) 295 11 31</p>
+							</div>
+							<a href="https://instagram.com/aquablast_vladikavkaz?igshid=MzRlODBiNWFlZA==">
+								<div class="footer-soc-net-block footer-text-block">
+									<p class="footer__soc-net">Мы в социальных сетях</p>
+									<span class="footer-soc-net__icon"></span>
+								</div>
+							</a>
+						</div>
+						<div class="mobile-footer-block">
+							<div class="mobile-footer-main-block-text">
+								<span class="mobile-footer__icon mobile-footer-mail__icon"></span>
+								<a href="#" class="mobile-footer__text">info.design@gmail.com</a>
+								<span class="mobile-footer__border"></span>
+								<span class="mobile-footer__icon mobile-footer-phone__icon"></span>
+								<a href="#" class="mobile-footer__text">+880 321 655 9985</a>
+							</div>
+							<div class="mobile-footer-logo-block wow animate__flipInX" data-wow-duration="1s">
+								<img src="images/AquablastLogo.svg" class="mobile-footer__logo">
+							</div>
+							<div class="mibile-footer-info-block">
+								<a href="https://instagram.com/aquablast_vladikavkaz?igshid=MzRlODBiNWFlZA==">
+									<div class="footer-soc-net-block footer-text-block">
+										<span class="footer-soc-net__icon"></span>
+										<p class="footer__soc-net">Мы в социальных сетях</p>
+									</div>
+								</a>
+								<a href="#">
+									<div class="mobile-footer-location-block">
+										<span class="footer-address__icon"></span>
+										<a href="#" class="mibile-footer-location-text">Улица Барбашова, дом 23</a>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer-navbar">
+						<div class="footer-navbar-links">
+							<h2 class="mobile-navbar__title">Разделы</h2>
+							<a href="#header" class="navbar-text__el">О нас</a>
+							<a href="#audience-block" class="navbar-text__el">Кому мы поможем?</a>
+							<a href="#equipment-block" class="navbar-text__el">Оборудование</a>
+							<a href="#feedback-block" class="navbar-text__el">Отзывы</a>
+							<a href="#gallery-block" class="navbar-text__el">Галерея</a>
+						</div>
+						<p class="developers">Сайт был создан компанией 2DO</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div class="form-popup-container hide-popup">
+			<div class="form-popup">
+				<h2 class="title">Заявка отправлена!</h2>
+				<p class="popup_subtitle">Благодарим вас за обращение. <br>Мы свяжемся с вами в ближайшее время.</p>
+				<img src="images/doneIcon.svg" class="popup__pic">
+				<button class="popup__btn" onclick="hidePopup()">Ок</button>
+			</div>
+		</div>
+		<div class="burger-container hide-burger" onclick="hideBurger()">
+			<div class="burger wow animate__fadeInRight" data-wow-duration="1s">
+				<div class="burger-header-block">
+					<span class="burger__icon" onclick="hideBurger()"></span>
+					<h2  id="burger__title">Разделы</h2>
+				</div>
+				<a href="#header"  id="burger__text" onclick="hideBurger()">О нас</a>
+				<a href="#audience-block"  id="burger__text" onclick="hideBurger()">Кому мы поможем?</a>
+				<a href="#equipment-block"  id="burger__text" onclick="hideBurger()">Оборудование</a>
+				<a href="#feedback-block"  id="burger__text" onclick="hideBurger()">Отзывы</a>
+				<a href="#gallery-block"  id="burger__text" onclick="hideBurger()">Галерея</a>
+			</div>
+		</div>
+		<script src="libs/inputmask.min.js"></script>
+		<script src="libs/just-validate.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
